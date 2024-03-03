@@ -49,4 +49,5 @@ qemu-system-x86_64 \
   -monitor none,server,nowait,nodelay,reconnect=-1 \
   -enable-kvm \
   -cpu host,+smap,+smep \
+  -s \
   2>&1
